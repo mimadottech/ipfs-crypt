@@ -1,5 +1,5 @@
 {
-  "name": "ipfs-crypt",
+  "name": "@kyc-crypto/ipfs-crypt",
   "version": "1.0.0",
   "description": "Add files to ipfs with encryption",
   "main": "index.js",
@@ -27,5 +27,8 @@
   "dependencies": {
     "ipfs-http-client": "^46.0.0",
     "lodash": "^4.17.20"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
